@@ -1,9 +1,9 @@
-import css from './App.module.css';
+import FunctionalGreeting from './components/Sidebar';
 
 function App() {
   return (
-    <div className={css.App}>
-      {/* Add your components here */}
+    <div className="App">
+      <FunctionalGreeting />
     </div>
   );
 }
