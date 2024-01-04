@@ -1,9 +1,10 @@
-import FunctionalGreeting from './components/Sidebar';
+// import css from './App.module.css';
+import StatefulGreeting from './components/StatefulGreeting';
 
 function App() {
   return (
     <div className="App">
-      <FunctionalGreeting />
+      <StatefulGreeting greeting="I'm a stateful class component!" name="Mike"/>
     </div>
   );
 }
